@@ -9,7 +9,7 @@ def main():
     ########################################
     """
 
-    for number in range(N):
+    for number in range(N+1):
         result.append(2 ** number)
         
     print(result)
@@ -22,3 +22,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
