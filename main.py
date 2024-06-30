@@ -9,6 +9,11 @@ def main():
     ########################################
     """
 
+    for number in range(N):
+        result.append(2 ** number)
+        
+    print(result)
+
     ########################################
     # Do not delete the return statement
     ########################################
